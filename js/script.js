@@ -11,8 +11,8 @@ let coloreUtente = prompt('Inserisci il tuo colore preferito!');
 console.log(coloreUtente);
 
 // Infine scrivi sulla pagina nomecognomecolorepreferito23
-let password = nomeUtente + cognomeUtente + coloreUtente;
+let password = nomeUtente + cognomeUtente + coloreUtente + '23';
 
 console.log(password)
 
-document.getElementById('name').innerHTML = password + '23';
+document.getElementById('name').innerHTML = password;
